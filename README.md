@@ -17,11 +17,17 @@ Though analyzing the mood is intricated task nowadays but we have endevaour to d
 We have classified moods in seven categories:-
 
 1.Analytical 
+
 2.Anger 
+
 3.Confident 
+
 4.Fear 
+
 5.Joy 
+
 6.Sad 
+
 7.Tentative
 
 Based on above categories we have suggested measures to soothe or calm down the mood of the person by suggesting some multimedia like songs/images/videos and some suggestions,jokes.
