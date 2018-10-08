@@ -3,8 +3,7 @@
 Help me with my Mood
 
 **Tweet:-** I may look calm, but in my head I've killed you about 5 times.
-              ![alt text](http://url/to/https://drive.google.com/open?id=1AWNQtxSp0XdPiREsIN_W2mYm9RxvFOM6)
-
+            
 **Mood Detected:-** Tentative
 
 **Suggestion:-** Motivational Quote
