@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:layout_height="match_parent"
+    tools:context=".process">
+
+    <TextView
+            android:id="@+id/user_display"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+        android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bggg"/>
+        <TextView
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Tweets of the day"
+            android:padding="15dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:scrollbars="none"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:background="#cacaca"
+                android:textSize="18dp"
+                android:textStyle="italic"
+                android:textAllCaps="true"
+                android:layout_marginEnd="30dp"
+                android:textColor="#000"
+                android:id="@+id/tweets"/>
+
+        </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/suggest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suggest"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="30dp"
+            android:layout_alignParentStart="true"
+            android:background="#A8E6CE"
+            android:onClick="play_Data"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Previous Moods"
+            android:onClick="pre_Day"
+            android:background="#cacaca"
+            />
+
+        <Button
+            android:id="@+id/button_twitter_signout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="#6C5B7B"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:onClick="Back"
+            android:text="Home"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
