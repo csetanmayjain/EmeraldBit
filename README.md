@@ -66,4 +66,10 @@ Based on above categories we have suggested measures to soothe or calm down the 
 
 Including the above set module in our current application we can use it in following ways:-
 
-• Feedback for example in call centres, company’s product & services. • In palacement preparation program. • Recording rwal time voice in our app to prevent life hazards accidents by calling to some emergence number. • Analyze daily rotine activity of a person through talk
+• Feedback for example in call centres, company’s product & services. 
+
+• In palacement preparation program. 
+
+• Recording real time voice in our app to prevent life hazards accidents by calling to some emergence number. 
+
+• Analyze daily rotine activity of a person through talk
