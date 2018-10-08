@@ -29,18 +29,27 @@ Based on above categories we have suggested measures to soothe or calm down the 
 **How it works**
 
 • Take user handle as input. 
-• Extract daily tweets from twitter account. 
+
+• Extract daily tweets from twitter account.
+
 • Passing them to ibm watson tone analyzer. 
+
 • Analyzes mood of that person.
+
 • Suggestion given according to the mood.
+
 • Also stores previous date mood from the data application is installed.
 
 **Applications**
 
 • Can play a major role in improving one’s health. 
+
 • Encouraging person by providing him motivational quote according to mood. 
+
 • To overcome from the negative moods.
+
 • Organisations can detect that which customer are satisfied & which aren’t with their service & organisation can do best for them. 
+
 • Can act as a psycologist.
 
 **Future Work**
